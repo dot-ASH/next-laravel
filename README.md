@@ -70,3 +70,5 @@ yarn && yarn dev
 ```
 
 _Check if the API is working_ @ <http://localhost:3000/backendVersion> 
+
+**For more** <https://github.com/laravel/breeze-next>
