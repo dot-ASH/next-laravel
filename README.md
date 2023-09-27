@@ -1,4 +1,4 @@
-_Next.js as the front-end app on PHP Laravel server on Linux._
+_Next.js as the frontend application with a PHP Laravel server backend hosted on a Linux environment_
 ## Installation 
 ---
 - #### Install PHP and Composer
