@@ -24,9 +24,9 @@ git clone https://github.com/dot-ASH/next-laravel.git && cd next-laravel
 ```
 - ##### Configure Environment 
 ```bash
-cp .env.example .env && nano .env
+cp .env.example .env
 ```
-
+_edit the database config like this before setting up database_
 ```plaintext
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -35,7 +35,7 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
-* ##### Configure Environment (postgreSQL)
+_for postgreSQL_
 ```plaintext
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -44,9 +44,7 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
 ```
-
-`only for postgre database migration:-`
-
+_* needed only for postgreSQL database migration:-_
 ```bash
 php artisan migrate
 ```
@@ -61,13 +59,14 @@ php artisan serve
 ```
 ### Front-end
 ---
+_on a new terminal keeping PHP server on_
 - ##### Configure Environment 
 ```bash
 cd front-end && cp .env.example .env.local
 ```
 - #### Install dependencies and run 
 ```bash
-npm install && npm run dev
+yarn && yarn dev
 ```
 
-_Check if the API is working @ <http://localhost:3000/backendVersion> _
+_Check if the API is working_ @ <http://localhost:3000/backendVersion> 

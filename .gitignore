@@ -17,6 +17,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/.obsidian
 
 # Front-end
 /front-end/node_modules
